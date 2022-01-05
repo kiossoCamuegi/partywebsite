@@ -1,0 +1,15 @@
+
+/*header */
+
+@media screen and (max-width:900px){
+    body header .hero-content-prt{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    body header .hero-content-prt .box:nth-child(1),
+    body header .hero-content-prt .box:nth-child(1) img{
+        min-width:100% !important;
+    }
+}
+
+

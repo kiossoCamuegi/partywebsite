@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/illustrations/png/lg.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome/icon/main.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>#</title>
+</head>
+<body>
+    <!-- Moda loginl -->
+    <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="ModalLoginTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                   <form action="provider/profile.html" id="signin-form">
+                    <h2>Acesse a sua conta</h2>
+                    <div class="fa fa-gift"></div>
+                    <p class="text-secondary">Login para gerenciar a sua conta</p>  
+                    <div class="col-lg-12">
+                       <label for="">Email</label>
+                       <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          </div>
+                          <input type="email" required class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1">
+                       </div> 
+                       </div> 
+                          <div class="col-lg-12">
+                             <label for="">Senha</label>
+                             <div class="input-group"> 
+                                <div class="input-group-prepend">
+                                <span class="input-group-text " id="basic-addon1"><i class="fa fa-lock"></i></span>
+                                </div>
+                                <input type="password" required  class="form-control" placeholder="senha" aria-label="password" aria-describedby="basic-addon1">
+                             </div>
+                          </div> 
+                          <div class="col-lg-12">
+                             <button class="btn col text-white">Entrar</button>
+                             <label for="#" class="text-center text-dark bar">Ou</label>
+                                <button class="btn mt-2 mb-2 g-btn"><img src="../images/google.svg" alt="">fazer login com google</button>
+                          </div>
+                          <div class="col-lg-12 text-center mt-2">
+                                <span class="text-secondary mt-2 mb-2">Não tem uma  conta ?<a href="">Cadastrar</a></span><br/>
+                             <a href="#" class="text-secondary">Esqueceu a sua senha ?</a>
+                          </div> 
+                   </form>
+            </div> 
+          </div>
+        </div>
+      </div>
+     <!---end-->
+<!--Header-->
+<header>
+    <nav class="navbar-responsive-prt">
+        <div>
+            <a href="index.html" class="logo-prt"><img src="./images/illustrations/png/lg.png" alt="">Bodas</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Ideias</a></li>
+                <li><a href="#">Decoração</a></li>
+                <li><a href="#">O que vestir</a></li>
+                <li><a href="#">Fornecedores</a></li>
+                <li><a href="community.html">Comunidade</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                  <li><a href="#"  data-toggle="modal" data-target="#ModalLogin">Entrar</a></li>
+                <li><a href="signup.html">Junte-se a nos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar-prt">
+        <div class="wrapper">
+            <div class="navbar-container-prt">
+                <div>
+                    <a href="index.html" class="logo-prt"><img src="./images/illustrations/png/lg.png" alt="">Bodas</a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Ideias</a></li>
+                        <li><a href="#">Decoração</a></li>
+                        <li><a href="#">O que vestir</a></li>
+                        <li><a href="#">Fornecedores</a></li>
+                        <li><a href="community.html">Comunidade</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="custom-links">
+                          <li><a href="#"  data-toggle="modal" data-target="#ModalLogin">Entrar</a></li>
+                          <li><a href="signup.html">Junte-se a nos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> 
+</header>
+<!---provider-page-->
+<aside class="provider-page">
+    <div class="wrapper">
+       <div class="provider-page-row">
+           <aside class="col-lg-3 provider-sidebar">
+               <ul>
+                   <h5>Fornecedores</h5>
+                   <hr>
+                   <ul class="row">
+                       <a href="./search.html"><li>Bolos</li></a>
+                       <a href="./search.html"><li>Roupas</li></a>
+                       <a href="./search.html"><li>Transporte</li></a>
+                       <a href="./search.html"><li>Salões</li></a>
+                       <a href="./search.html"><li>Bufe</li></a>
+                       <a href="./search.html"><li>Luzes</li></a>
+                   </ul>
+               </ul>
+               <ul>
+                <h5>Ideias top para o seu evento</h5>
+                <hr>
+                <ul class="row">
+                   <a href="ideias.html">
+                    <div class="ideia-sm-box">
+                        <img src="./images/9.jpg" alt="">
+                        <h5>Decoração com velas e luzes negras</h5>
+                    </div>
+                   </a>
+                   <a href="ideias.html">
+                    <div class="ideia-sm-box">
+                        <img src="./images/11.jpg" alt="">
+                        <h5>Vestidos caseiros e baratos</h5>
+                    </div>
+                   </a>
+                   <a href="ideias.html">
+                    <div class="ideia-sm-box">
+                        <img src="./images/8.jpg" alt="">
+                        <h5>Decoração com velas e luzes negras</h5>
+                    </div>
+                   </a>
+                   <a href="ideias.html">
+                    <div class="ideia-sm-box">
+                        <img src="./images/7.jpg" alt="">
+                        <h5>Vestidos caseiros e baratos</h5>
+                    </div>
+                   </a>
+                </ul>
+            </ul>
+            <ul>
+                <h5>Assista videos inspiradores</h5>
+                <hr>
+                <ul class="row avi">
+                  <a href="#">
+                    <div class="sm-video-box">
+                        <img src="./images/20.jpg" alt="">
+                        <div class="over-box"><i class="fa fa-play-circle"></i></div>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="sm-video-box">
+                        <img src="./images/2.jpg" alt="">
+                        <div class="over-box"><i class="fa fa-play-circle"></i></div>
+                    </div>
+                  </a>
+                </ul>
+            </ul>
+           </aside>
+           <aside class="col-lg-9">
+            <div class="provider-profile">
+                <div class="cover">
+                    <img src="./images/12.jpeg" alt="">
+                    <div class="cover-overlay"> 
+                            <div class="play-provider-video fa fa-play"></div>
+                         <div class="d-flex">
+                             <div class="provider-category fa fa-image"></div>
+                             <div class="provider-name">Maia Eventos de todos</div>
+                         </div>
+                         <div class="provider-reactions">
+                             <div class="provider-rats">
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star"></i>
+                                 <i class="fa fa-star-o"></i>
+                             </div>
+                             <div class="provider-followers">
+                                  <button id="follow-provider" provider-code class="btn">1245 Seguir</button>
+                             </div>
+                         </div> 
+                    </div>
+                </div>
+                <div class="provider-pic">
+                    <img src="./images/avatar.jpg" alt="">
+                </div>
+              </div>
+              <aside class="ml-5 provider-tab">
+                   <nav class="provider-tab-header">
+                       <ul>
+                           <li class="active">Descrição</li>
+                           <li>Fotos</li>
+                           <li>Videos</li>
+                           <li>Comentarios</li>
+                       </ul>
+                       <hr>
+                   </nav>
+                   <section class="provider-tab-body">
+                    <aside class="active">
+                       <div class="provider-dets">
+                           <div class="member-box">
+                              Membro desde 20 de setembro de 2021
+                           </div>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, omnis quasi? Reiciendis, voluptatem maxime. Voluptate, laborum optio illum voluptatem totam repellendus earum non consectetur accusamus sapiente rerum asperiores dolorum, tempora deleniti, expedita doloremque sed! Commodi eum veritatis nesciunt magnam reiciendis officiis perspiciatis adipisci dolorem odit ad, nisi dolores est provident qui ut sunt quibusdam alias iste voluptatum nulla. Nesciunt doloremque recusandae sed a accusamus laborum consectetur omnis, voluptatem esse sunt illum corrupti quae accusantium aliquid quisquam, deserunt labore corporis facilis quia numquam ullam cumque. Ea earum iste alias odio delectus architecto sunt, facere magnam, harum ab aut laudantium aliquid voluptatem!
+                        </p>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ol>
+                        <iframe style="width:100% !important;height:400px !important;" src="https://www.youtube.com/watch?v=mCBEM3bO5_Q" frameborder="0"></iframe>
+                       </div>
+                    </aside>
+                    <aside>
+                           <div class="row row-images">
+                               <li class="image-box"><img src="./images/13.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/14.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/15.jfif" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/16.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/17.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/18.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/19.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/20.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                               <li class="image-box"><img src="./images/10.jpg" alt=""><div class="image-box-overlay"><i class="fa fa-image"></i></div></li>
+                           </div>
+                    </aside>
+                    <aside>
+                        <div class="row row-videos">
+                            <li class="video-box"><img src="./images/13.jpg"  alt=""><div data-video="./videos/1.mp4" data-author="Sara2536"  class="video-box-overlay"><i class="fa fa-play-circle"></i></div></li>
+                            <li class="video-box"><img src="./images/14.jpg"  alt=""><div data-video="./videos/2.mp4" data-author="Sara2536" class="video-box-overlay"><i class="fa fa-play-circle"></i></div></li>
+                            <li class="video-box"><img src="./images/15.jfif" alt=""><div data-video="./videos/1.mp4" data-author="Sara2536" class="video-box-overlay"><i class="fa fa-play-circle"></i></div></li>
+                            <li class="video-box"><img src="./images/16.jpg"  alt=""><div data-video="./videos/2.mp4" data-author="Sara2536" class="video-box-overlay"><i class="fa fa-play-circle"></i></div></li>
+                            <li class="video-box"><img src="./images/17.jpg"  alt=""><div data-video="./videos/1.mp4" data-author="Sara2536" class="video-box-overlay"><i class="fa fa-play-circle"></i></div></li>
+                            <li class="video-box"><img src="./images/18.jpg"  alt=""><div data-video="./videos/2.mp4" data-author="Sara2536" class="video-box-overlay"><i class="fa fa-play-circle"></i></div></li>
+                        </div>
+                    </aside>
+                    <aside>
+                        <section class="comments-area">
+                            <form action="" class="comment-form" id="comment-provider-form">
+                                <img src="./images/avatar.jpg" alt="">
+                                <div class="form-group">
+                                    <input type="text" placeholder="O que pensas do grupo maia eventos para todos ?" class="form-control">
+                                    <button class="btn">Comentar</button>
+                                </div>
+                            </form>
+                            <div class="comments-container">
+                                  <article class="comment-box">
+                                       <div class="space">
+                                        <div class="d-flex">
+                                            <a href="#"><img src="./images/avatar.jpg" alt=""></a>
+                                            <div class="block">
+                                                <p>@Sara miller</p>
+                                                <small>10 horas atras</small>
+                                            </div>
+                                        </div>
+                                        <div class="like-comment liked" comment-code="" comment-author="">
+                                             <div class="fa fa-heart"></div> <span>15</span>
+                                        </div>
+                                       </div> 
+                                       <div class="comment-text">
+                                           <p>
+                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa, vel veritatis amet enim, dolores libero eum mollitia exercitationem aliquam laudantium soluta eligendi debitis 
+                                             voluptates eveniet suscipit necessitatibus quidem nam praesentium error atque, officiis iure. Voluptatem perferendis soluta accusamus ~
+                                             maxime dolorum modi vel beatae sequi! Repellendus ratione soluta consequuntur voluptate.
+                                           </p>
+                                           <div class="float-right">
+                                               <button comment-code="" class="btn">Deletar</button>
+                                               <button comment-code="" class="btn">Editar</button>
+                                            </div>
+                                       </div>
+                                  </article>
+                                  <article class="comment-box">
+                                    <div class="space">
+                                     <div class="d-flex">
+                                         <a href="#"><img src="./images/avatar1.webp" alt=""></a>
+                                         <div class="block">
+                                             <p>@Bob Pitter</p>
+                                             <small>10 horas atras</small>
+                                         </div>
+                                     </div>
+                                     <div class="like-comment" comment-code="" comment-author="">
+                                          <div class="fa fa-heart-o"></div> <span>3</span>
+                                     </div>
+                                    </div> 
+                                    <div class="comment-text">
+                                        <p>
+                                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa, vel veritatis amet enim, dolores libero eum mollitia exercitationem aliquam laudantium soluta eligendi debitis 
+                                          voluptates eveniet suscipit necessitatibus quidem nam praesentium error atque, officiis iure. Voluptatem perferendis soluta accusamus ~
+                                          maxime dolorum modi vel beatae sequi! Repellendus ratione soluta consequuntur voluptate.
+                                        </p> 
+                                    </div>
+                               </article>
+                            </div>
+                        </section>
+                    </aside>
+                  </section>
+              </aside>
+           </aside>
+       </div>
+
+
+    </div>
+</aside>
+
+<!--- Image gallery modal-->
+
+
+<section class="gallery-modal">
+   <div class="wrapper">
+    <div class="gallery-modal-container">
+        <div class="gallery-modal-header">
+                   <div class="fa fa-close btn closemodal"></div>
+        </div>
+        <div class="gallery-modal-view">
+            <img src="./images/10.jpg" alt="">
+        </div>
+        <div class="gallery-modal-items">
+            <li ><img src="./images/16.jpg" alt=""></li>
+            <li ><img src="./images/17.jpg" alt=""></li>
+            <li ><img src="./images/18.jpg" alt=""></li>
+            <li ><img src="./images/19.jpg" alt=""></li>
+            <li ><img src="./images/20.jpg" alt=""></li>
+            <li ><img src="./images/17.jpg" alt=""></li>
+            <li ><img src="./images/18.jpg" alt=""></li>
+            <li ><img src="./images/19.jpg" alt=""></li>
+            <li ><img src="./images/20.jpg" alt=""></li>
+            <li ><img src="./images/10.jpg" alt=""></li>
+        </div>
+    </div>
+   </div>
+</section>
+
+
+
+
+<!--Footer-->
+<div class="svg1">
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 129.39712918660285,151.45933014354068 258.7942583732057,169.91866028708134 336,153 C 413.2057416267943,136.08133971291866 438.22009569377997,83.7846889952153 525,85 C 611.77990430622,86.2153110047847 760.3253588516748,140.94258373205741 865,161 C 969.6746411483252,181.05741626794259 1030.4784688995214,166.44497607655504 1119,156 C 1207.5215311004786,145.55502392344496 1323.7607655502393,139.2775119617225 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#343a4088" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><path d="M 0,400 C 0,400 0,266 0,266 C 75.41626794258374,240.60287081339715 150.8325358851675,215.20574162679426 258,221 C 365.1674641148325,226.79425837320574 504.08612440191393,263.7799043062201 601,265 C 697.9138755980861,266.2200956937799 752.822966507177,231.67464114832535 846,226 C 939.177033492823,220.32535885167465 1070.622009569378,243.52153110047846 1176,255 C 1281.377990430622,266.47846889952154 1360.688995215311,266.2392344497608 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#343a40ff" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+  </div>
+  <footer class="bg-dark" >
+    <div class="wrapper">
+        <div class="row">
+            <article>
+                <h1>Sobre Nós</h1>
+                <ul>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique perferendis
+                     perspiciatis numquam eius minima, velit consequatur enim explicabo aliquam alias 
+                      reiciendis magni ipsa id repellat dolorem nisi earum porro aperiam.
+                    </p> 
+                </ul>
+            </article>
+            <article>
+                <h1>Contactos</h1>
+                <ul>
+                    <li>Email : <a href="mailto:bodas@hotmail.com">Bodas@hotmail.com</a></li>
+                    <li>Telefone : <a href="telto:+244999000999">+244.999.000.999</a></li>
+                </ul>
+                <h1>Redes sociais</h1>
+                <ul>
+                   <li><a href="#" target="_blink">Facebook</a></li>
+                   <li><a href="#" target="_blink">Youtube</a></li>
+                   <li><a href="#" target="_blink">Instagram</a></li>
+                   <li><a href="#" target="_blink">Linkedin</a></li>
+                </ul>
+            </article>
+            <article>
+                <h1>Baixe o nosso Aplicativo</h1>
+                <ul class="d-flex">
+                    <li><a href="#" target="_blink"><img src="./images/app1.png" alt="Play store"></a></li>
+                    <li><a href="#" target="_blink"><img src="./images/app2.png" alt="App store"></a></li>
+                </ul>
+                <h1>Newsletter</h1>
+                <ul>
+                    <div class="box">
+                        <form action="#" id="newsletterform" method="post">
+                            <input class="form-control" type="email" required placeholder="O seu email" id="newsletterinput">
+                            <button type="submit" class="btn btn-newsletter">Subscrever</button>
+                        </form>
+                    </div>
+                     <div id="tr-google"></div>
+                </ul>
+            </article>
+        </div>
+    </div>
+</footer> 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>  
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+</body>
+</html>

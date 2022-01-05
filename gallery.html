@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/illustrations/png/lg.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome/icon/main.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>#</title>
+</head>
+<body>
+    <!-- Moda loginl -->
+ <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="ModalLoginTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+               <form action="provider/profile.html" id="signin-form">
+                <h2>Acesse a sua conta</h2>
+                <div class="fa fa-gift"></div>
+                <p class="text-secondary">Login para gerenciar a sua conta</p>  
+                <div class="col-lg-12">
+                   <label for="">Email</label>
+                   <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1">
+                   </div> 
+                   </div> 
+                      <div class="col-lg-12">
+                         <label for="">Senha</label>
+                         <div class="input-group"> 
+                            <div class="input-group-prepend">
+                            <span class="input-group-text " id="basic-addon1"><i class="fa fa-lock"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1">
+                         </div>
+                      </div> 
+                      <div class="col-lg-12">
+                         <button class="btn col text-white">Entrar</button>
+                         <label for="#" class="text-center text-dark bar">Ou</label>
+                            <button class="btn mt-2 mb-2 g-btn"><img src="images/google.svg" alt="">fazer login com google</button>
+                      </div>
+                      <div class="col-lg-12 text-center mt-2">
+                            <span class="text-secondary mt-2 mb-2">Não tem uma  conta ?<a href="">Cadastrar</a></span><br/>
+                         <a href="#" class="text-secondary">Esqueceu a sua senha ?</a>
+                      </div> 
+               </form>
+        </div> 
+      </div>
+    </div>
+  </div>
+ <!---end-->
+<!--Header-->
+<header>
+    <nav class="navbar-responsive-prt">
+        <div>
+            <a href="index.html" class="logo-prt"><img src="./images/illustrations/png/lg.png" alt="">Bodas</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Ideias</a></li>
+                <li><a href="#">Decoração</a></li>
+                <li><a href="#">O que vestir</a></li>
+                <li><a href="#">Fornecedores</a></li>
+                <li><a href="community.html">Comunidade</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                  <li><a href="#"  data-toggle="modal" data-target="#ModalLogin">Entrar</a></li>
+                <li><a href="signup.html">Junte-se a nos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar-prt">
+        <div class="wrapper">
+            <div class="navbar-container-prt">
+                <div>
+                    <a href="index.html" class="logo-prt"><img src="./images/illustrations/png/lg.png" alt="">Bodas</a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Ideias</a></li>
+                        <li><a href="#">Decoração</a></li>
+                        <li><a href="#">O que vestir</a></li>
+                        <li><a href="#">Fornecedores</a></li>
+                        <li><a href="community.html">Comunidade</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="custom-links">
+                          <li><a href="#"  data-toggle="modal" data-target="#ModalLogin">Entrar</a></li>
+                          <li><a href="signup.html">Junte-se a nos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> 
+</header>
+<!--gallery-page-->
+<div class="wrapper">
+    <section class="gallery-page">
+        <div class="viewer-container">
+            <div class="main-view"> 
+               <img src="./images/cover1.jpg" alt=""> 
+            </div>
+            <div class="main-view-list">
+                <li data-file="image" class="file-box">
+                    <img src="./images/cover4.jpg" alt="">
+                </li>
+                <li data-file="video" data-source="" class="file-box">
+                   <img src="./images/2.jpg" alt="">
+                   <div class="over-file-box">
+                       <i class="fa fa-play-circle"></i>
+                   </div>
+               </li>
+               <li data-file="image" class="file-box">
+                   <img src="./images/3.jpg" alt="">
+               </li>
+               <li data-file="video" data-source="" class="file-box">
+                   <img src="./images/2.jpg" alt="">
+                   <div class="over-file-box">
+                       <i class="fa fa-play-circle"></i>
+                   </div>
+               </li>
+               <li data-file="image" class="file-box">
+                   <img src="./images/4.jpg" alt="">
+               </li>
+               <li data-file="image" class="file-box">
+                   <img src="./images/9.jpg" alt="">
+               </li>
+               <li data-file="video" data-source="" class="file-box">
+                   <img src="./images/cover1.jpg" alt="">
+                   <div class="over-file-box">
+                       <i class="fa fa-play-circle"></i>
+                   </div>
+               </li>
+               <li data-file="image" class="file-box">
+                   <img src="./images/cover5.jpg" alt="">
+               </li>
+            </div>
+        </div>
+   </section>
+</div>
+<!--Footer-->
+<div class="svg1">
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 129.39712918660285,151.45933014354068 258.7942583732057,169.91866028708134 336,153 C 413.2057416267943,136.08133971291866 438.22009569377997,83.7846889952153 525,85 C 611.77990430622,86.2153110047847 760.3253588516748,140.94258373205741 865,161 C 969.6746411483252,181.05741626794259 1030.4784688995214,166.44497607655504 1119,156 C 1207.5215311004786,145.55502392344496 1323.7607655502393,139.2775119617225 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#343a4088" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><path d="M 0,400 C 0,400 0,266 0,266 C 75.41626794258374,240.60287081339715 150.8325358851675,215.20574162679426 258,221 C 365.1674641148325,226.79425837320574 504.08612440191393,263.7799043062201 601,265 C 697.9138755980861,266.2200956937799 752.822966507177,231.67464114832535 846,226 C 939.177033492823,220.32535885167465 1070.622009569378,243.52153110047846 1176,255 C 1281.377990430622,266.47846889952154 1360.688995215311,266.2392344497608 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#343a40ff" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+  </div>
+  <footer class="bg-dark" >
+    <div class="wrapper">
+        <div class="row">
+  
+        </div>
+    </div>
+  </footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,242 @@
+[
+	{
+		"abbr": "AL",
+		"name": "Alabama",
+		"capital": "Montgomery",
+		"lat": "32.361538",
+		"icon":"1.png",
+		"long": "-86.279118"
+	},
+	{
+		"abbr": "AK",
+		"name": "Alaska",
+		"capital": "Juneau",
+		"lat": "58.301935",
+		"icon":"2.png",
+		"long": "-134.419740"
+	},
+	{
+		"abbr": "AZ",
+		"name": "Arizona",
+		"capital": "Phoenix",
+		"lat": "33.448457",
+		"icon":"3.png",
+		"long": "-112.073844"
+	},
+	{
+		"abbr": "AR",
+		"name": "Arkansas",
+		"capital": "Little Rock",
+		"lat": "34.736009",
+		"icon":"4.png",
+		"long": "-92.331122"
+	},
+	{
+		"abbr": "CA",
+		"name": "California",
+		"capital": "Sacramento",
+		"lat": "38.555605",
+		"icon":"5.png",
+		"long": "-121.468926"
+	},
+	{
+		"abbr": "CO",
+		"name": "Colorado",
+		"capital": "Denver",
+		"lat": "39.7391667",
+		"icon":"6.png",
+		"long": "-104.984167"
+	},
+	{
+		"abbr": "CT",
+		"name": "Connecticut",
+		"capital": "Hartford",
+		"lat": "41.767",
+		"icon":"7.png",
+		"long": "-72.677"
+	},
+	{
+		"abbr": "DE",
+		"name": "Delaware",
+		"capital": "Dover",
+		"lat": "39.161921",
+		"icon":"8.png",
+		"long": "-75.526755"
+	},
+	{
+		"abbr": "FL",
+		"name": "Florida",
+		"capital": "Tallahassee",
+		"lat": "30.4518",
+		"icon":"9.png",
+		"long": "-84.27277"
+	},
+	{
+		"abbr": "GA",
+		"name": "Georgia",
+		"capital": "Atlanta",
+		"lat": "33.76",
+		"icon":"10.png",
+		"long": "-84.39"
+	},
+	{
+		"abbr": "HI",
+		"name": "Hawaii",
+		"capital": "Honolulu",
+		"lat": "21.30895",
+		"icon":"11.png",
+		"long": "-157.826182"
+	},
+	{
+		"abbr": "ID",
+		"name": "Idaho",
+		"capital": "Boise",
+		"lat": "43.613739",
+		"icon":"12.png",
+		"long": "-116.237651"
+	},
+	{
+		"abbr": "IL",
+		"name": "Illinois",
+		"capital": "Springfield",
+		"lat": "39.783250",
+		"icon":"13.png",
+		"long": "-89.650373"
+	},
+	{
+		"abbr": "IN",
+		"name": "Indiana",
+		"capital": "Indianapolis",
+		"lat": "39.790942",
+		"icon":"14.png",
+		"long": "-86.147685"
+	},
+	{
+		"abbr": "IA",
+		"name": "Iowa",
+		"capital": "Des Moines",
+		"lat": "41.590939",
+		"icon":"15.png",
+		"long": "-93.620866"
+	},
+	{
+		"abbr": "KS",
+		"name": "Kansas",
+		"capital": "Topeka",
+		"lat": "39.04",
+		"icon":"16.png",
+		"long": "-95.69"
+	},
+	{
+		"abbr": "KY",
+		"name": "Kentucky",
+		"capital": "Frankfort",
+		"lat": "38.197274",
+		"icon":"17.png",
+		"long": "-84.86311"
+	},
+	{
+		"abbr": "LA",
+		"name": "Louisiana",
+		"capital": "Baton Rouge",
+		"lat": "30.45809",
+		"icon":"18.png",
+		"long": "-91.140229"
+	},
+	{
+		"abbr": "ME",
+		"name": "Maine",
+		"capital": "Augusta",
+		"lat": "44.323535",
+		"icon":"19.png",
+		"long": "-69.765261"
+	},
+	{
+		"abbr": "MD",
+		"name": "Maryland",
+		"capital": "Annapolis",
+		"lat": "38.972945",
+		"icon":"20.png",
+		"long": "-76.501157"
+	},
+	{
+		"abbr": "MA",
+		"name": "Massachusetts",
+		"capital": "Boston",
+		"lat": "42.2352",
+		"icon":"21.png",
+		"long": "-71.0275"
+	},
+	{
+		"abbr": "MI",
+		"name": "Michigan",
+		"capital": "Lansing",
+		"lat": "42.7335",
+		"icon":"22.png",
+		"long": "-84.5467"
+	},
+	{
+		"abbr": "MN",
+		"name": "Minnesota",
+		"capital": "Saint Paul",
+		"lat": "44.95",
+		"icon":"23.png",
+		"long": "-93.094"
+	},
+	{
+		"abbr": "MS",
+		"name": "Mississippi",
+		"capital": "Jackson",
+		"lat": "32.320",
+		"icon":"24.png",
+		"long": "-90.207"
+	},
+	{
+		"abbr": "MO",
+		"name": "Missouri",
+		"capital": "Jefferson City",
+		"lat": "38.572954",
+		"icon":"25.png",
+		"long": "-92.189283"
+	},
+	{
+		"abbr": "MT",
+		"name": "Montana",
+		"capital": "Helana",
+		"lat": "46.595805",
+		"icon":"26.png",
+		"long": "-112.027031"
+	},
+	{
+		"abbr": "SC",
+		"name": "South Carolina",
+		"capital": "Columbia",
+		"lat": "34.000",
+		"icon":"27.png",
+		"long": "-81.035"
+	},
+	{
+		"abbr": "SD",
+		"name": "South Dakota",
+		"capital": "Pierre",
+		"lat": "44.367966",
+		"icon":"28.png",
+		"long": "-100.336378"
+	},
+	{
+		"abbr": "TN",
+		"name": "Tennessee",
+		"capital": "Nashville",
+		"lat": "36.165",
+		"icon":"29.png",
+		"long": "-86.784"
+	},
+	{
+		"abbr": "TX",
+		"name": "Texas",
+		"capital": "Austin",
+		"lat": "30.266667",
+		"icon":"30.png",
+		"long": "-97.75"
+	}
+]
