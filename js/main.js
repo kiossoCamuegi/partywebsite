@@ -101,12 +101,20 @@ autocomplete();
     }
  }
 tabs_switch(
+    ".tab-filter",
+    ".tab-filter-head",
+    ".tab-filter-body",
+    "active","li",
+    ".item"
+);
+tabs_switch(
     ".provider-tab",
     ".provider-tab-header",
     ".provider-tab-body",
     "active","li",
     "aside"
 );
+
 
 function provider_video(){
     const btn = document.querySelectorAll(".play-provider-video");  
@@ -251,7 +259,7 @@ function Homeslider(){
     }
     
     
-    function autoplay(){
+function autoplay(){
         NextSlider()
         updatecircleIndicator()
     }
@@ -260,6 +268,30 @@ function Homeslider(){
     }     
 }
  Homeslider();
+
+
+
+function name(params) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
